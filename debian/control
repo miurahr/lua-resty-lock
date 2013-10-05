@@ -1,0 +1,15 @@
+Source: lua-resty-lock
+Section: interpreters
+Priority: optional
+Maintainer: Hiroshi Miura <miurahr@linux.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.8.2
+Homepage: http://agentzh.org
+Vcs-Git: git://github.com/agentzh/lua-resty-lock.git
+Vcs-Browser: https://github.com/agentzh/lua-resty-lock
+
+Package: liblua5.1-resty-lock
+Architecture: all
+Depends: ${shlibs:Depends}
+Description: Simple nonblocking lock API for ngx_lua based on shared memory dictionaries
+
